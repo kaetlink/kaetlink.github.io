@@ -1,0 +1,185 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit
+}
+html, body {
+    font-family: "helvetica Neue", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #d8d8d8;
+}
+
+.site-header {
+    width: 100%;
+    height: 500px;
+    background-image: url("img/pattern.jpg");
+    position: relative;
+    background-repeat: repeat;
+    background-size: 700px;
+}
+.banner {
+    background: #f7f7f7;
+    border-bottom: 3px solid #000;
+}
+
+.banner__logo {
+    float: left;
+    padding-top: 24px;
+    padding-left: 15px;
+}
+
+.banner__nav {
+    float: right;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+
+.banner__nav-links {
+    list-style: none;
+    margin: 0;
+}
+
+.banner__nav__link {
+    float:left;
+    display:block;
+}
+    
+.banner__nav__link a {
+    text-transform:uppercase;
+    color:#000;
+    font-weight:bold;
+    text-decoration:none;
+    padding:15px;
+    display:block;
+    font-size:0.825em;
+}
+
+.banner__nav__link a:hover,
+.banner__nav__link a:focus {
+    color:#f98367;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display:table;
+    content:" ";
+}
+
+.clearfix:after {
+    clear:both;
+}
+    
+.page-title {
+    padding: 40px 30px;
+    font-style: italic;
+    font-size: 3em;
+    text-align: center;
+    color: #d8efa1;
+    position: absolute;
+    width: 100%;
+    background: #111;
+    bottom:0;
+    margin:0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1040px;
+    margin: -20px auto 40px auto;
+    position: relative;
+}
+
+.content {
+    background-color: #f7f7f7;
+    padding: 2em 3em;
+    width: 68%;
+    float: left;
+    margin-right: 3%
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #f7f7f7;
+    padding: 2em 1em;
+    float: left;
+    text-align: left;
+}
+
+.about {
+    text-align: center;
+    font-style: italic;
+}
+
+.important-links section {
+    float: left;
+    width: 48%;
+}
+
+.important-links h2 {
+    border-bottom: 3px solid #f98367;
+    }
+        
+.websites,
+.resources {
+        
+}
+
+.important-links section:first-of-type {
+    margin-right: 4%;
+}
+        
+.websites,
+.resources,
+.downloads {
+    list-style: none;
+    padding: 0;
+}
+
+.websiteitem,
+.resourceitem,
+.download__link {
+    padding: 5px 0px;
+    border-bottom: 1px dotted grey;
+}
+
+a {
+    color: #f98367;
+    text-decoration: none;
+}
+
+h3 {
+    font-style: italic;
+    text-align: center;
+}
+
+.class {
+    border-bottom: 3px solid #f98367;
+}
+
+.roster {
+    padding: 0;
+    list-style: none;
+}
+
+.student {
+    float: left;
+    width: 22%;
+    margin-right: 4%;
+    border-bottom: 3px solid grey;
+    padding-bottom: 8px;
+}
+
+.student:nth-of-type(4n) {
+    margin-right: 0;
+}
+    
+.student h4 {
+    margin: 0;
+}
+
+.sidebar h2 {
+    border-bottom: 3px solid #f98367;
+}
+    
